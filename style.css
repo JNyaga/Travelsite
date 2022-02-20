@@ -343,6 +343,9 @@ body.hide{
   }
   
   @media screen and (max-width: 1024px) {
+    body{
+      overflow-x: hidden;
+    }
     main {
       width: 100%;
       margin: 0;
@@ -357,6 +360,7 @@ body.hide{
     }
     .hero-img {
       padding-top: 4rem;
+      object-postion:top;
     }
     .hero-desc h2 {
       font-size: 1.6rem;
