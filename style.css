@@ -70,6 +70,7 @@ main{
   flex: 1;
   flex-basis: 25rem;
   overflow: hidden;
+  object-position: top;
 }
 
 .hero-img img {
